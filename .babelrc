@@ -1,6 +1,7 @@
 {
 	"presets": [
-		"es2015"
-	],
-	"plugins": []
+		["latest", {
+			"env": { "modules": false }
+		}]
+	]
 }
